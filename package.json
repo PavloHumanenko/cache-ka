@@ -1,0 +1,34 @@
+{
+  "name": "cache-ka",
+  "version": "0.1.0",
+  "description": "A Mongoose caching library based on redis engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "cache",
+    "mongo",
+    "mongodb",
+    "mongoose",
+    "redis",
+    "store",
+    "prefix",
+    "ttl"
+  ],
+  "author": "Pavlo Humanenko",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "jsosort": "0.0.0",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^8.1.1",
+    "mongoose": "^5.9.28",
+    "should": "^13.2.3"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}

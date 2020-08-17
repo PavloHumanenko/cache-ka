@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended"
+  ],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2019
+  },
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "eol-last": ["error", "always"],
+    "indent": ["error", 4, { "MemberExpression": 1 }],
+    "no-multiple-empty-lines": ["error"],
+    "no-new-symbol": "error",
+    "no-console":"off",
+    "no-trailing-spaces": ["error"],
+    "no-undef": ["error"],
+    "no-unused-vars": ["error"],
+    "object-curly-spacing": ["error", "always"],
+    "object-shorthand": "error",
+    "prefer-const": 2,
+    "keyword-spacing": 2,
+    "key-spacing": 2,
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "space-in-parens": ["error", "never"],
+    "rest-spread-spacing": ["error", "never"],
+    "node/exports-style": ["error", "module.exports"],
+    "node/no-deprecated-api": ["error"],
+    "node/no-exports-assign": "error",
+    "node/no-extraneous-require": ["error"],
+    "node/no-missing-require": ["error"],
+    "require-atomic-updates": "off",
+    "no-prototype-builtins": "off"
+  }
+}
