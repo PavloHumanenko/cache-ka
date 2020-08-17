@@ -1,6 +1,6 @@
 {
   "name": "cache-ka",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Mongoose caching library based on redis engine.",
   "main": "index.js",
   "scripts": {
@@ -30,5 +30,12 @@
     "mongoose": "^5.9.28",
     "should": "^13.2.3"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavloHumanenko/cache-ka.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PavloHumanenko/cache-ka/issues"
+  },
+  "homepage": "https://github.com/PavloHumanenko/cache-ka/issues"
 }

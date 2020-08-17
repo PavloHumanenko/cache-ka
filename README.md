@@ -1,7 +1,5 @@
 # cache-ka #
 
-#### Mongoose caching library. ####
-
 ## About ##
 
 A Mongoose caching library based on redis engine. 
