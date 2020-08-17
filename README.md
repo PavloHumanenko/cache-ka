@@ -132,22 +132,6 @@ const redisClient = redis.createClint({
 cacheKa(mongoose, { redisClient });
 ```
 
-If you already has redis client you want to use you can pass it as `redisClient` property ot options object
-
-```javascript
-const mongoose = require('mongoose');
-const cacheKa = require('cache-ka');
-
-const redis = require('redis');
-
-const redisClient = redis.createClint({    
-    host: '127.0.0.1', 
-    port: 6379 
-})
-
-cacheKa(mongoose, { redisClient });
-```
-
 If you are using `async-redis` library use `redisClientAsync` property instead
 
 ```javascript
