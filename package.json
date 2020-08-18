@@ -1,6 +1,6 @@
 {
   "name": "cache-ka",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "A Mongoose caching library based on redis engine.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "ttl"
   ],
   "author": "Pavlo Humanenko",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "async-redis": "^1.1.7",
     "jsosort": "0.0.0",
