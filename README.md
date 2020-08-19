@@ -50,7 +50,7 @@ Item
 
 
 //Clean cache for all queries with "cool_items" prefix.
-cacheKa.clearCache('cool_items', function() {
+cacheKa.clearCache('cool_items', null, function() {
 //Your flow logic
 });
 ```
