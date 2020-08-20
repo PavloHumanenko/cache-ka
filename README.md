@@ -124,7 +124,7 @@ const cacheKa = require('cache-ka');
 
 const redis = require('redis');
 
-const redisClient = redis.createClint({    
+const redisClient = redis.createClient({    
     host: '127.0.0.1', 
     port: 6379 
 })
@@ -140,7 +140,7 @@ const cacheKa = require('cache-ka');
 
 const redis = require('async-redis');
 
-const redisClientAsync = redis.createClint({    
+const redisClientAsync = redis.createClient({    
     host: '127.0.0.1', 
     port: 6379 
 })
